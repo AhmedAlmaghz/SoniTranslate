@@ -1,21 +1,22 @@
 # Temporal requirements
 nest_asyncio
---extra-index-url https://download.pytorch.org/whl/cu118
-torch>=2.1.0+cu118
-torchvision>=0.16.0+cu118
-torchaudio>=2.1.0+cu118
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch
+torchvision
+torchaudio
 yt-dlp
 gradio==4.29.0
-pydub==0.25.1
-edge_tts==6.1.7
-deep_translator==1.11.4
+pydub>=0.25.1
+edge_tts>=6.1.7
+deep_translator>=1.11.4
 git+https://github.com/m-bain/whisperX.git@a5dca2c
 gTTS
-gradio_client==0.10.1
+gradio_client==0.2.7
 praat-parselmouth>=0.4.3
-pyworld==0.3.2
-faiss-cpu==1.7.3
-torchcrepe==0.0.20
+pyworld>=0.3.2
+faiss-cpu>=1.7.3
+faiss
+torchcrepe>=0.0.20
 ffmpeg-python>=0.2.0
 git+https://github.com/facebookresearch/fairseq.git@refs/pull/5359/merge
 gdown
